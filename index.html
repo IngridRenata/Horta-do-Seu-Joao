@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horta-Joao</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+<body>
+    <header class="menu-principal"> 
+        <nav class="principal">
+            <ul>
+                <li><a href="#secao-home">Home</a></li>
+                <li><a href="#secao-produtos">Produtos</a></li>
+                <li><a href="#secao-sobrenos">Sobre nós</a></li>
+                <li><a href="#secao-contato">Contato</a></li>
+            </ul>
+        </nav>
+       <h1>Horta do Seu joão</h1>
+    </header>
+
+    <section id="secao-home">
+        <h2 class="titulo-verde">Do nosso solo direto para a sua mesa</h2>
+        <img class="imagem-Joao" src="img/imagens/BCO.44e02e84-8dc4-410e-89c2-ca047e42e2eb.png" alt="foto do dono da horta segurando uma cesta com legumes frescos.">
+    </section>
+
+    <section id="secao-produtos">
+
+        <h2 class="Produtos">Conheça nossos produtos</h2>
+        
+        <article id="card-alface">
+            <h3 class="alface-produto">Alface</h3>
+
+            <div>
+                <img src="img/imagens/alface_1743692723965.webp" alt="Alface fresca"> 
+            </div>
+           
+            <p class="preco">R$ 24,70 <span>Kg</span></p>
+
+            <a href="http://wa.me/553499250667" class="btn-comprar">Pedir no WhatsApp</a>
+        </article>
+
+        <article id="card-repolho">
+            <h3 class="repolho-produto">Repolho verde</h3>
+            <div>
+                <img src="img/imagens/OIP (2).webp" alt="repolho verde fresco">
+            </div>
+
+            <p class="preco">R$ 35,90 <span>Kg</span></p>
+
+            <a href="http://wa.me/553499250667" class="btn-comprar">Pedir no WhatsApp</a>
+        </article>
+
+        <article id="card-cenoura">
+            <h3 class="cenoura-produto">Cenoura</h3>
+
+            <div>
+                <img src="img/imagens/OIP (1).webp" alt="Cenoura fresca">
+            </div>
+            <p class="preco"> R$ 12,50 <span>Kg</span></p>
+
+            <a href="http://wa.me/553499250667" class="btn-comprar">Pedir no WhatsApp</a>
+        </article>
+
+        <article id="card-repolho-roxo">
+            <h3 class="repolho-roxo-produto">Repolho Roxo</h3>
+
+            <div>
+                <img src="img/imagens/305242c8-67e4-4fa8-9244-c2a822ee5295.jpg" alt="Repolho roxo fresco">
+            </div>
+
+            <p class="preco"> R$ 29,40 <span>Kg</span></p>
+            <a href="http://wa.me/553499250667" class="btn-comprar">Pedir no WhatsApp</a>
+        </article>
+    </section>
+
+    <section id="secao-sobrenos">
+        <h2 class="Sobrenos">Sobre nós</h2>
+        <h3 class="historia"> A Horta do Seu João</h3>
+   
+        <div class="imagem-Joao">
+            <img src="img/imagens/imagem do seu Joâo.png" alt="Imagem do Seu João">
+        </div>
+   
+        <p class="descricao-historia"> Fundada em 1995, a Horta do Seu João é uma empresa familiar dedicada ao cultivo e fornecimento de hortaliças frescas e saudáveis. Localizada em uma área rural do interior de  Minas Gerais, nossa horta utiliza práticas agrícolas sustentáveis para garantir a qualidade dos produtos que chegam à sua mesa. Com um compromisso firme com a satisfação do cliente, oferecemos uma variedade de verduras e legumes cultivados com carinho e respeito ao meio ambiente. Venha conhecer nossa história e fazer parte da família Horta do Seu João!</p>
+        <p>alfaces, cenouras, temperos e outras hortaliças frescas que abastecem a comunidade local.</p>
+        <p> a horta é também um espaço de convivência, onde vizinhos aprendem, trocam experiências e recebem parte da colheita.</p>
+    </section>
+
+   <section id="secao-contato">
+        <h2 class="Contato">Preencha o formulário para receber novidades da nossa horta toda semana!</h2>
+        <form action="formulario para contato">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="Email">Email: </label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="Number">Numero:</label>
+            <input type="tel" id="number" name="number" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+   </section>
+
+    <footer>Desenvolvido por @IngridTech</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

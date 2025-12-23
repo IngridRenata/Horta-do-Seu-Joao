@@ -1,0 +1,55 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffebde;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+h1 {
+    display: block;      
+    font-size: 68px;
+    font-family: "Abril Fatface", serif;
+    color: #275214;
+    margin-bottom: 0px;  
+    margin-top: 30px;
+}
+.titulo-verde {
+    display: block;      
+    font-size: 50px;
+    font-family: serif;
+    color: #1d410d;
+    margin-top: 90px;     
+    font-weight: 600;
+}
+
+header.menu-principal {
+    background-color: rgb(21, 100, 38);
+    height: 70px;
+    max-width: 100%;
+    padding-top: 1px;
+    margin-bottom: 10px;
+}
+.principal ul li{
+    display: inline-block;
+    margin: 0 79px;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    
+    border: #8B4513 groove 4px;
+    background-color:#5d2e0a;
+    border-radius: 8px 2px 10px 3px;
+    box-shadow: 3px 3px 0px #5d2e0a;
+}
+.principal a{
+    text-decoration: none;
+    color: #eeeeee;
+    padding: 5px 10px;
+}
+
+.imagem-Joao {
+    margin-top: 5px;
+    width: 400px ;
+    border-radius: 5px;
+    border-color: slategrey shadowed 4px;
+}
